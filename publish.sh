@@ -35,6 +35,7 @@ echo "-> Packaging ${SLUG} v${VERSION} ..."
 rsync -a \
   --exclude='tests/' \
   --exclude='generated/' \
+  --exclude='reports/' \
   --exclude='CHANGELOG.md' \
   --exclude='publish.sh' \
   --exclude='.git' \
