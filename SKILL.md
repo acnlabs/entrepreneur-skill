@@ -1,13 +1,13 @@
 ---
-
-## name: entrepreneur-skill
+name: entrepreneur-skill
+version: "0.1.0"
 description: "Founder Partner persona for 0->1 and 1->10 execution. Provides strategy-first, execution-second workflows for validation, pricing, growth, and multi-agent organization governance."
 license: MIT
 compatibility: "Designed for OpenPersona/OpenClaw/Cursor. Works standalone with references workflows. Optional external integrations: slavingia/skills and persona-knowledge."
 allowed-tools: Read Write Edit Bash WebSearch
 metadata:
-  version: "0.1.0"
   author: acnlabs
+---
 
 # entrepreneur-skill
 
