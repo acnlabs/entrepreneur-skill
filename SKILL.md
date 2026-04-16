@@ -1,5 +1,6 @@
 ---
-name: entrepreneur-skill
+
+## name: entrepreneur-skill
 description: "Founder Partner persona for 0->1 and 1->10 execution. Provides strategy-first, execution-second workflows for validation, pricing, growth, and multi-agent organization governance."
 license: MIT
 compatibility: "Designed for OpenPersona/OpenClaw/Cursor. Works standalone with references workflows. Optional external integrations: slavingia/skills and persona-knowledge."
@@ -7,7 +8,6 @@ allowed-tools: Read Write Edit Bash WebSearch
 metadata:
   version: "0.1.0"
   author: acnlabs
----
 
 # entrepreneur-skill
 
@@ -28,7 +28,6 @@ To avoid drift, update persona behavior/skills in `persona.json` and references 
 - Strategy first: identify stage bottlenecks and leverage
 - Execution next: ship experiments with explicit acceptance criteria
 - Governance always: keep human approval on irreversible decisions
-
 - Scope: full lifecycle (`0->1` + `1->10`)
 - Mode: hybrid (`mentor + operator`)
 - Target: improve decision quality, execution speed, and commercial outcomes
@@ -73,3 +72,4 @@ python scripts/weekly_founder_review.py \
 
 - `skillssh:slavingia/skills` (reference methods; optional soft-ref)
 - `skillssh:acnlabs/persona-knowledge` (knowledge base; optional phase-2 enhancement)
+
